@@ -1,0 +1,23 @@
+<html>
+    <body bgcolor=099000>
+        <title>Granite Wiki Knowledge Base: Internal Only</title><br>
+    </br>
+
+<a href="http://www.granite-networks.ca" target="_blank">
+<img src="http://www.granite-networks.ca/static/images/GraniteNetworks.png" width="500" height="200" border="2" style="border:2px solid black;" alt="Photo Property of Granite Networks" />
+</a>
+          <p>Welcome to DCOPS/NETOPS Internal Wiki</p>
+<br>
+    </br>
+    
+<form action="http://10.3.0.249:8000/opswiki/media/" enctype="multipart/form-data" method="post"> {% csrf_token %}
+     <p> Name of the Article you are adding:
+         <br> 
+            <input type="text" name="textline" size="30"> </p><p> Select the contributions to upload:
+                <br>
+                     <input type="file" name="datafile" size="40">  </p>
+                   
+<div>                <input type="submit" value="Send"></div></form>          
+
+    </body>
+        </html>
